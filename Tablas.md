@@ -1,4 +1,4 @@
-## Tabla del Enunciado 4.1 – Total Pagado por Usuario
+## 4.1 – Usuarios activos con total pagado en colones desde 2024
 
 | full_name           | email              | country     | total_paid_in_colones |
 |---------------------|--------------------|-------------|------------------------|
@@ -25,7 +25,7 @@
 
 ---
 
-## Tabla del Enunciado 4.2 – Renovaciones Pendientes
+## 4.2 – Usuarios con renovación de suscripción en menos de 15 días
 
 | full_name           | email              | days_remaining | next_renewal_date     |
 |---------------------|--------------------|----------------|------------------------|
@@ -45,43 +45,51 @@
 
 ---
 
-## Tabla del Enunciado 4.3 – Ranking de Sesiones
+## 4.3 – Ranking de uso de la aplicación
 
-| ranking_type        | full_name           | email              | total_sessions | total_duration_minutes |
-|---------------------|---------------------|---------------------|----------------|-------------------------|
-| Top 15 - Más uso    | Nombre7 Apellido7   | user7@example.com   | 16             | 1152                    |
-| Top 15 - Más uso    | Nombre16 Apellido16 | user16@example.com  | 16             | 1063                    |
-| Top 15 - Más uso    | Nombre11 Apellido11 | user11@example.com  | 16             | 1042                    |
-| Top 15 - Más uso    | Nombre14 Apellido14 | user14@example.com  | 14             | 1025                    |
-| Top 15 - Más uso    | Nombre6 Apellido6   | user6@example.com   | 13             | 1109                    |
-| Top 15 - Más uso    | Nombre20 Apellido20 | user20@example.com  | 11             | 813                     |
-| Top 15 - Más uso    | Nombre17 Apellido17 | user17@example.com  | 10             | 733                     |
-| Top 15 - Más uso    | Nombre1 Apellido1   | user1@example.com   | 10             | 584                     |
-| Top 15 - Más uso    | Nombre10 Apellido10 | user10@example.com  | 9              | 665                     |
-| Top 15 - Más uso    | Nombre18 Apellido18 | user18@example.com  | 9              | 586                     |
-| Top 15 - Más uso    | Nombre2 Apellido2   | user2@example.com   | 9              | 582                     |
-| Top 15 - Más uso    | Nombre15 Apellido15 | user15@example.com  | 9              | 568                     |
-| Top 15 - Más uso    | Nombre9 Apellido9   | user9@example.com   | 9              | 443                     |
-| Top 15 - Más uso    | Nombre19 Apellido19 | user19@example.com  | 8              | 733                     |
-| Top 15 - Más uso    | Nombre13 Apellido13 | user13@example.com  | 8              | 620                     |
-| Top 15 - Menos uso  | Nombre3 Apellido3   | user3@example.com   | 6              | 331                     |
-| Top 15 - Menos uso  | Nombre12 Apellido12 | user12@example.com  | 6              | 831                     |
-| Top 15 - Menos uso  | Nombre4 Apellido4   | user4@example.com   | 6              | 407                     |
-| Top 15 - Menos uso  | Nombre5 Apellido5   | user5@example.com   | 7              | 389                     |
-| Top 15 - Menos uso  | Nombre8 Apellido8   | user8@example.com   | 7              | 389                     |
-| Top 15 - Menos uso  | Nombre13 Apellido13 | user13@example.com  | 8              | 620                     |
-| Top 15 - Menos uso  | Nombre19 Apellido19 | user19@example.com  | 8              | 733                     |
-| Top 15 - Menos uso  | Nombre9 Apellido9   | user9@example.com   | 9              | 443                     |
-| Top 15 - Menos uso  | Nombre2 Apellido2   | user2@example.com   | 9              | 582                     |
-| Top 15 - Menos uso  | Nombre15 Apellido15 | user15@example.com  | 9              | 568                     |
-| Top 15 - Menos uso  | Nombre18 Apellido18 | user18@example.com  | 9              | 586                     |
-| Top 15 - Menos uso  | Nombre10 Apellido10 | user10@example.com  | 9              | 665                     |
-| Top 15 - Menos uso  | Nombre1 Apellido1   | user1@example.com   | 10             | 584                     |
-| Top 15 - Menos uso  | Nombre17 Apellido17 | user17@example.com  | 10             | 733                     |
+### Top 15 usuarios con más uso
+
+| full_name           | email              | total_sessions | total_duration_minutes |
+|---------------------|--------------------|----------------|-------------------------|
+| Nombre7 Apellido7   | user7@example.com  | 16             | 1152                    |
+| Nombre16 Apellido16 | user16@example.com | 16             | 1063                    |
+| Nombre11 Apellido11 | user11@example.com | 16             | 1042                    |
+| Nombre14 Apellido14 | user14@example.com | 14             | 1025                    |
+| Nombre6 Apellido6   | user6@example.com  | 13             | 1109                    |
+| Nombre20 Apellido20 | user20@example.com | 11             | 813                     |
+| Nombre17 Apellido17 | user17@example.com | 10             | 733                     |
+| Nombre1 Apellido1   | user1@example.com  | 10             | 584                     |
+| Nombre10 Apellido10 | user10@example.com | 9              | 665                     |
+| Nombre18 Apellido18 | user18@example.com | 9              | 586                     |
+| Nombre2 Apellido2   | user2@example.com  | 9              | 582                     |
+| Nombre15 Apellido15 | user15@example.com | 9              | 568                     |
+| Nombre9 Apellido9   | user9@example.com  | 9              | 443                     |
+| Nombre19 Apellido19 | user19@example.com | 8              | 733                     |
+| Nombre13 Apellido13 | user13@example.com | 8              | 620                     |
+
+### Top 15 usuarios con menos uso
+
+| full_name           | email              | total_sessions | total_duration_minutes |
+|---------------------|--------------------|----------------|-------------------------|
+| Nombre3 Apellido3   | user3@example.com  | 6              | 331                     |
+| Nombre12 Apellido12 | user12@example.com | 6              | 831                     |
+| Nombre4 Apellido4   | user4@example.com  | 6              | 407                     |
+| Nombre5 Apellido5   | user5@example.com  | 7              | 389                     |
+| Nombre8 Apellido8   | user8@example.com  | 7              | 389                     |
+| Nombre13 Apellido13 | user13@example.com | 8              | 620                     |
+| Nombre19 Apellido19 | user19@example.com | 8              | 733                     |
+| Nombre9 Apellido9   | user9@example.com  | 9              | 443                     |
+| Nombre2 Apellido2   | user2@example.com  | 9              | 582                     |
+| Nombre15 Apellido15 | user15@example.com | 9              | 568                     |
+| Nombre18 Apellido18 | user18@example.com | 9              | 586                     |
+| Nombre10 Apellido10 | user10@example.com | 9              | 665                     |
+| Nombre1 Apellido1   | user1@example.com  | 10             | 584                     |
+| Nombre17 Apellido17 | user17@example.com | 10             | 733                     |
+| Nombre20 Apellido20 | user20@example.com | 10             | 843                     |
 
 ---
 
-## Tabla del Enunciado 4.4 – Tipos de Error Detectados
+## 4.4 – Problemas más frecuentes con el análisis de la IA
 
 | Tipo de Error          | Descripción Común     | Ocurrencias | Sesiones Afectadas |
 |------------------------|------------------------|-------------|---------------------|
@@ -112,4 +120,9 @@
 | Alucinación de la IA   | Error en sesión 13     | 4           | 13                  |
 | Alucinación de la IA   | Error en sesión 57     | 4           | 57                  |
 | Alucinación de la IA   | Error en sesión 3      | 4           | 3                   |
-
+| Alucinación de la IA   | Error en sesión 71     | 4           | 71                  |
+| Alucinación de la IA   | Error en sesión 82     | 4           | 82                  |
+| Corrección del Usuario | Error en sesión 6      | 4           | 6                   |
+| Corrección del Usuario | Error en sesión 11     | 4           | 11                  |
+| Corrección del Usuario | Error en sesión 38     | 4           | 38                  |
+| Corrección del Usuario | Error en sesión 94     | 4           | 94                  |

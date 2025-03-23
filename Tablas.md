@@ -1,4 +1,4 @@
-##Tabla del enunciado 4.1
+**Tabla del enunciado 4.1
 
 | full_name         | email              | country    | total_paid_in_colones |
 |-------------------|--------------------|------------|------------------------|
@@ -23,7 +23,7 @@
 | Nombre7 Apellido7   | user7@example.com  | Costa Rica | 20910.00               |
 | Nombre3 Apellido3   | user3@example.com  | Costa Rica | 18289.00               |
 
-##Tabla del enunciado 4.2
+**Tabla del enunciado 4.2
 
 | full_name         | email              | days_remaining | next_renewal_date     |
 |-------------------|--------------------|----------------|------------------------|
@@ -41,7 +41,7 @@
 | Nombre5 Apellido5 | user5@example.com  | 13             | 2025-04-05 13:24:16    |
 | Nombre2 Apellido2 | user2@example.com  | 14             | 2025-04-06 13:24:16    |
 
-##Tabla del enunciado 4.3
+**Tabla del enunciado 4.3
 
 | ranking_type        | full_name         | email              | total_sessions | total_duration_minutes |
 |---------------------|-------------------|---------------------|----------------|-------------------------|
@@ -75,7 +75,7 @@
 | Top 15 - Menos uso  | Nombre1 Apellido1 | user1@example.com   | 10             | 584                     |
 | Top 15 - Menos uso  | Nombre17 Apellido17 | user17@example.com | 10             | 733                     |
 
-##Tabla del enunciado 4.4
+**Tabla del enunciado 4.4
 
 | Tipo de Error           | Descripción Común     | Ocurrencias | Sesiones Afectadas |
 |-------------------------|------------------------|-------------|---------------------|

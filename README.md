@@ -28,5 +28,5 @@ tablas hechas en clase
 | [`INSERCIONES.sql`](https://github.com/CharlieAbarca/Caso-1---Entregable-2/blob/main/INSERCIONES.sql) | Script con datos de prueba insertados en la base de datos.                 |
 | [`CONSULTAS.sql`](https://github.com/CharlieAbarca/Caso-1---Entregable-2/blob/main/CONSULTAS.sql) | Consultas SQL utilizadas para responder los enunciados del entregable.     |
 | [`BaseDeDatosPaymentAssistant.sql`](https://github.com/CharlieAbarca/Caso-1---Entregable-2/blob/main/BaseDeDatosPaymentAssistant.sql) | Script de creación del esquema de la base de datos.                        |
-| [`PaymentAssitantPDF`]([https://github.com/CharlieAbarca/Caso-1---Entregable-2/blob/main/PaymentAssistant.pdf)) | PDF de la base de datos                     |
+| [`PaymentAssitantPDF`]([https://github.com/CharlieAbarca/Caso-1---Entregable-2/blob/main/PaymentAssistant.pdf) | PDF de la base de datos                     |
 

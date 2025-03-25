@@ -7,6 +7,19 @@
 
 ---
 
+# Detalles acerca de las correciones y aclaraciones
+1. voice_session la IA de Amazon utiliza un sistema nube (S3 Bucket), por lo cual, los archivos no se procesan en nuestra base de datos
+2. La tabla que engloba la conversación como un todo es ai_transcription, la IA utiliza una variable que es is_partial que indica
+cuando una conversación está completa y lista para su analisis
+3. interactionlogs es corto porque es usado junto pay_event_type, esto hace que cada log se pueda seleccionar por tipo y una descripción que permite no tener que
+poner muchos datos y que sea flexible
+4. Se arregló la tabla de interpretation ya que englobaba solo bancos, ahora con el uso de interpretation_types y identidades que permiten la flexibilidad, se pueden agregar información
+de todo tipo.
+5. ai_payment_config ahora para evitar redundancia, está enlazada paymentsmethods y funciona solo para tipos, pero la información se guarda directamente en las
+tablas hechas en clase
+
+---
+
 ## Archivos principales
 
 | Archivo                            | Descripción                                                                 |
